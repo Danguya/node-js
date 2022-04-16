@@ -6,13 +6,15 @@
     "skipLibCheck": true,
     "sourceMap": true,
     "forceConsistentCasingInFileNames": true,
+    "moduleResolution": "node",
     "module": "CommonJS",
     "esModuleInterop": true,
     "baseUrl": "src",
     "paths": {
       "@/*":["*"],
       "@/tests/*":["../tests/*"]
-    }
+    },
+    "strict": true
   },
-  "include": ["src"]
+  "include": ["src", "tests"]
 }
