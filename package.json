@@ -12,7 +12,8 @@
     "test": "jest --passWithNoTests --no-cache -runInBand",
     "test:watch": "yarn test -- --watch",
     "test:staged": "yarn test -- --findRelatedTests",
-    "test:coverage": "yarn test -- --coverage"
+    "test:coverage": "yarn test -- --coverage",
+    "prepare": "husky install"
   },
   "devDependencies": {
     "@types/jest": "^27.4.1",
