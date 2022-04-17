@@ -11,6 +11,7 @@
     "lint:fix": "yarn lint -- --fix",
     "test": "jest --passWithNoTests --no-cache -runInBand",
     "test:watch": "yarn test -- --watch",
+    "test:staged": "yarn test -- --findRelatedTests",
     "test:coverage": "yarn test -- --coverage"
   },
   "devDependencies": {
@@ -23,7 +24,9 @@
     "eslint-plugin-import": "^2.22.1",
     "eslint-plugin-node": "^11.1.0",
     "eslint-plugin-promise": "^5.0.0",
+    "husky": "^7.0.4",
     "jest": "^27.5.1",
+    "lint-staged": "^12.3.8",
     "ts-jest": "^27.1.4",
     "typescript": "^4"
   },
